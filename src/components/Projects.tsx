@@ -256,14 +256,14 @@ const Projects: React.FC = () => {
     <section id="projects" className="py-16 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
         {/* Admin Toggle */}
-        <div className="flex justify-end mb-4">
+        {/* <div className="flex justify-end mb-4">
           <button
             onClick={() => setIsAdmin(!isAdmin)}
             className="px-4 py-2 bg-slate-800 text-white rounded-lg hover:bg-slate-700"
           >
             {isAdmin ? 'Disable Admin Mode' : 'Enable Admin Mode'}
           </button>
-        </div>
+        </div> */}
 
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Featured Projects</h2>

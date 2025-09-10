@@ -41,6 +41,7 @@ const Education: React.FC = () => {
     'Finite Element Analysis (FEA)',
     '3D Printing Fundamentals',
     'MATLAB for Engineers',
+    'LabVIEW'
   ];
 
   return (
@@ -50,7 +51,7 @@ const Education: React.FC = () => {
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Education & Qualifications</h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
             Strong academic foundation with advanced degrees and professional certifications
-            supporting expertise in mechanical engineering and project management.
+            supporting expertise in mechanical engineering and embedded systems.
           </p>
         </div>
 

@@ -53,8 +53,8 @@ const Experience: React.FC = () => {
     <section id="experience" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-800 mb-4">Professional Experience</h2>
-          <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-black mb-4">Professional Experience</h2>
+          <p className="text-black text-lg max-w-2xl mx-auto">
             Progressive career growth with increasing responsibilities and measurable impact across 
             automotive, manufacturing, and design engineering sectors.
           </p>

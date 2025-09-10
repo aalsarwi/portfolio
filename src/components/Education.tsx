@@ -48,8 +48,8 @@ const Education: React.FC = () => {
     <section id="education" className="py-16 bg-slate-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-800 mb-4">Education & Qualifications</h2>
-          <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-black mb-4">Education & Qualifications</h2>
+          <p className="text-black text-lg max-w-2xl mx-auto">
             Strong academic foundation with advanced degrees and professional certifications
             supporting expertise in mechanical engineering and embedded systems.
           </p>

@@ -45,7 +45,7 @@ const Education: React.FC = () => {
 
   return (
     <section id="education" className="py-16 bg-slate-50">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Education & Qualifications</h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
@@ -54,7 +54,8 @@ const Education: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        {/* Grid for Education and Certifications */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-12">
           {/* Education */}
           <div>
             <h3 className="text-2xl font-semibold text-slate-800 mb-6 flex items-center space-x-2">
@@ -64,7 +65,7 @@ const Education: React.FC = () => {
 
             <div className="space-y-6">
               {education.map((edu) => (
-                <div key={edu.id} className="bg-white rounded-xl p-6 shadow-lg">
+                <div key={edu.id} className="bg-white rounded-xl p-8 shadow-xl">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between">
                     {/* Left Section: Degree, School, GPA */}
                     <div className="flex-1 md:pr-6">
@@ -106,15 +107,14 @@ const Education: React.FC = () => {
             </div>
           </div>
 
-          {/* Certifications & Training */}
+          {/* Certifications */}
           <div>
             <h3 className="text-2xl font-semibold text-slate-800 mb-6 flex items-center space-x-2">
               <Award className="w-6 h-6 text-blue-600" />
-              <span>Certifications & Training</span>
+              <span>Certifications</span>
             </h3>
 
-            {/* Professional Certifications */}
-            <div className="bg-white rounded-xl p-6 shadow-lg mb-6">
+            <div className="bg-white rounded-xl p-8 shadow-xl">
               <h4 className="text-lg font-semibold text-slate-800 mb-4">Professional Certifications</h4>
               <div className="space-y-4">
                 {certifications.map((cert, index) => (
@@ -142,18 +142,20 @@ const Education: React.FC = () => {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
 
-            {/* Additional Training */}
-            <div className="bg-white rounded-xl p-6 shadow-lg">
-              <h4 className="text-lg font-semibold text-slate-800 mb-4">Additional Training</h4>
-              <div className="grid grid-cols-1 gap-2">
-                {additionalTraining.map((training, index) => (
-                  <div key={index} className="flex items-center space-x-2 p-2">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    <span className="text-slate-700 text-sm">{training}</span>
-                  </div>
-                ))}
-              </div>
+        {/* Centered Additional Training */}
+        <div className="max-w-3xl mx-auto">
+          <div className="bg-white rounded-xl p-8 shadow-xl">
+            <h4 className="text-lg font-semibold text-slate-800 mb-4 text-center">Additional Training</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {additionalTraining.map((training, index) => (
+                <div key={index} className="flex items-center space-x-2 p-2">
+                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                  <span className="text-slate-700 text-sm">{training}</span>
+                </div>
+              ))}
             </div>
           </div>
         </div>

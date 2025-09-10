@@ -56,7 +56,7 @@ const Experience: React.FC = () => {
           <h2 className="text-3xl font-bold text-slate-800 mb-4">Professional Experience</h2>
           <p className="text-slate-600 text-lg max-w-2xl mx-auto">
             Progressive career growth with increasing responsibilities and measurable impact across 
-            automotive, aerospace, and industrial engineering sectors.
+            automotive, manufacturing, and design engineering sectors.
           </p>
         </div>
 

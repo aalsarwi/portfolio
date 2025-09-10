@@ -266,8 +266,8 @@ const Projects: React.FC = () => {
         </div> */}
 
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-slate-800 mb-4">Featured Projects</h2>
-          <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-black mb-4">Featured Projects</h2>
+          <p className="text-black text-lg max-w-2xl mx-auto">
             Comprehensive portfolio showcasing innovative engineering solutions across multiple disciplines and industries, with
             measurable impact and technical excellence.
           </p>

@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
         {/* Footer */}
         <div className="mt-12 pt-8 border-t border-white/20 text-center">
           <p className="text-slate-300">
-            © 2024 Your Name - Mechanical Engineer. All rights reserved.
+            © 2024 Abdulmuizz Alsarwi - Mechanical Engineer. All rights reserved.
           </p>
           <p className="text-slate-400 text-sm mt-2">
             Ready to drive innovation through engineering excellence.

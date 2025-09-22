@@ -27,7 +27,7 @@ const Experience: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Lead Mechancial Design',
+      title: 'Lead Body Design',
       company: 'Formula 1 @ Western University.',
       location: 'London, ON',
       duration: 'Sept 2024 - present',

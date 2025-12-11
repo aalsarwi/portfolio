@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
           {/* Resume Button */}
           <div className="w-full lg:w-1/3 flex justify-center">
             <a 
-              href="/Abdulmuizz ALSARWI Resume.pdf" 
+              href="" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full flex items-center justify-center space-x-3 bg-blue-600 text-white p-4 rounded-xl hover:bg-blue-700 transition-colors"

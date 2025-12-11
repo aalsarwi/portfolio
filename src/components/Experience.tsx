@@ -18,8 +18,8 @@ const Experience: React.FC = () => {
         'Assisted with control system hardware testing to ensure operational reliability.'
       ],
       achievements: [
-        'Cut MRI data processing time by 20% through workflow optimization on high performance systems ',
-        'Enhanced diagnostic accuracy by 12% via structured SQL data organization',
+        'Cut MRI data processing time through workflow optimization on high performance systems ',
+        'Enhanced diagnostic accuracy via structured SQL data organization',
         'Reduced hardware downtime and troubleshooting by 5% through systematic control system testing',
         'Boosted workflow efficiency by implementing assembly level software hardware techniques'
       ],
@@ -27,23 +27,23 @@ const Experience: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Lead Body Design',
+      title: 'Junior Chassis Coordinator',
       company: 'Formula 1 @ Western University.',
       location: 'London, ON',
       duration: 'Sept 2024 - present',
       type: 'Full-time',
       description: 'Specialized in precision mechanical systems and body design and analysis for a formula 1 car, with focus on high-reliability components.',
       responsibilities: [
-        'Lead the mechanical body and aerodynamic design of the Formula 1 race car.',
-        'Apply markup tools and documentation standards to ensure precise labeling and design accuracy',
+        'Supported chassis redesign work by updating AutoCAD models and validating modifications through CFD to ensure compliance with competition requirements.',
+        'Maintained accurate technical drawings by applying markup tools, revising dimensions, and organizing labels to support ongoing design iterations.',
         'Collaborate with team members to integrate design modifications into the overall vehicle system.',
         'Conduct iterative design reviews to validate aerodynamic efficiency and structural feasibility.'
       ],
       achievements: [
-        'Improved vehicle performance by 7% through optimized aerodynamic redesign.',
-        'Contributed to advancing Western’s Formula 1 project competitiveness with measurable aerodynamic gains.',
+        'Contributed to a compliant chassis redesign that preserved the vehicle’s original weight while meeting competition policy standards.',
+        'Improved drawing consistency and reduced revision errors by implementing a clear and well-labeled AutoCAD documentation process.',
         'Enhanced collaboration between design and build teams by producing clear and accurate CAD documentation.',
-        'Successfully implemented and documented design changes, reducing revision errors by 15%.'
+        'Designed and built a functional PCP system case in SolidWorks with safe electrical routing and a custom micro-pin cutout, enhancing reliability and ease of access during testing'
       ],
       technologies: ['AutoCAD', 'Markup Tools', '3D Modeling & Simulation', 'Testing Protocols']
     },
